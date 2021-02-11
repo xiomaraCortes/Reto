@@ -4,7 +4,7 @@ import net.thucydides.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
-public class UTestRegister2Page extends PageObject{
+public class UTestRegister2Page{
     public static final Target Ciudad_Input = Target.the("Es el para elegir la ciudad")
             .located(By.xpath("//div[@ng-if=isGoogleMapsAvailable()]//i[]contains(text(),'Bogota')"));
     public static final Target Codigo_Input = Target.the("Codigo postal")
