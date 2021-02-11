@@ -1,11 +1,10 @@
 package co.com.choucair.certification.Tecnica.userinterface;
 
-import net.thucydides.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 
-public class UTestRegister1Page extends PageObject {
+public class UTestRegister1Page  {
     public static final Target Join_Button = Target.the("Es el boton para registrarse en la pagina")
             .located(By.xpath("//a[@class= 'unauthenticated-nav-bar__sign-up']//href[]contains(text(),'Join Today')"));
     public static final Target Nombre_Input = Target.the("Campo para escribir los nombres")
